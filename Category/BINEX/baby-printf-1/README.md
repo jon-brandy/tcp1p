@@ -35,7 +35,15 @@ Apakah kamu tau printf merupakan fungsi yang berbahaya jika digunakan dengan sal
 ![image](https://user-images.githubusercontent.com/70703371/212640105-f945580d-2fa4-442e-a36a-cc7caea152e2.png)
 
 
-5. Let's decompile the binary using ghidra.
+5. Let's straight to decompile the binary.
+6. Check the `vuln()` function.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/213633578-56b93772-25a8-49a2-b2a4-0cc860990830.png)
+
+
+7. There's no bufferoverflow, but there's a **format string vulnerability**, the `printf()` function does not have any format specifier.
 
 > RESULT
 
