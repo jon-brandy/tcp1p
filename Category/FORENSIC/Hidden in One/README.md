@@ -34,5 +34,35 @@ Bisakah kamu membantuku membongkar rahasia dia?
 ![image](https://user-images.githubusercontent.com/70703371/212635241-d0b28cdc-38d4-4748-9e0e-5330479eca54.png)
 
 
-5. What comes to my mind is we shall use `get-item` feature in windows.
-6. 
+5. Well i tried to use binwalk to the flag.txt file but got nothing.
+6. Let's use it to the zip file.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/213871548-79b005c1-2d64-4707-98ac-e319c18a3120.png)
+
+
+7. Notice there's a png file, now let's run **foremost** to the file.
+8. Jump to the output directory.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/213871599-5db5be78-b656-410e-8f91-3660336655cd.png)
+
+
+9. Jump to the png directory and see the png file.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/213871609-aee5e48a-7ed3-493a-98f1-d8bb4714b965.png)
+
+
+10. Got the flag!
+
+## FLAG
+
+```
+TCP1P{H1dd3N_1n_Pl41n_S1gHt}
+```
+
+
