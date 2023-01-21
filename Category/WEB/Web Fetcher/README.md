@@ -24,7 +24,7 @@ http://ctf.tcp1p.com:47138
 
 
 3. Based from the hint given and the source code we got, we know this chall is related to **local file inclusion** but with fetch.
-4. To test that let's use -> `file://`. For example let's input -> `File:///etc/passwd`.
+4. To test that let's use -> `file://`. For example let's input -> `file:///etc/passwd`.
 
 > RESULT
 
@@ -45,10 +45,21 @@ http://ctf.tcp1p.com:47138
 
 7. Let's use that!
 
-> RESULT
-
+```
+file:///proc/self/environ
 ```
 
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/213871135-8da7e178-cbe5-41f7-8d04-d8db56c1c666.png)
+
+
+8. Got the flag!
+
+## FLAG
+
+```
+TCP1P{local_file_inclusion_with_fetch}
 ```
 
 ## LEARNING REFERENCES:
