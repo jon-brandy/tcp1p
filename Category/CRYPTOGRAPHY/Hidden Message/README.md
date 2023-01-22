@@ -10,10 +10,25 @@ Aku dengar XOR sangat rentan, bisakah kamu membuktikannya?
 ## STEPS:
 1. First, unzip the `.zip` file.
 
-![image](https://user-images.githubusercontent.com/70703371/212632761-b8b96602-36e0-4a99-9e5f-ffe37cd74288.png)
+![image](https://user-images.githubusercontent.com/70703371/213905789-75512d35-9df0-4e83-a2ea-46c6d30aebc2.png)
 
 
-2. Analyze the python script.
+> INSIDE TXT FILE
+
+![image](https://user-images.githubusercontent.com/70703371/213905797-9117fe13-70cb-4c8e-8767-449464b425c6.png)
+
+
+2. Based on the description, i think the text is XORed let's decode it with `dcode.fr`.
 
 > RESULT
 
+![image](https://user-images.githubusercontent.com/70703371/213905857-fc2bd106-57f3-4dce-8cc6-a5f13b7164cd.png)
+
+
+3. Got the flag!
+
+## FLAG
+
+```
+TCP1P{bRut3f0rc3_c4n_b3_Us3fuLL_s0m3t1m3s}
+```
