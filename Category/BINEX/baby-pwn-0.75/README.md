@@ -48,6 +48,41 @@ nc ctf.tcp1p.com 3830
 
 > RESULT
 
+![image](https://user-images.githubusercontent.com/70703371/215696243-914c0857-d92f-49f7-852e-f1e4eceebc95.png)
 
 
+8. Looks like we leaked the flag but not only half of it.
+9. So i bruteforced it by incrementing the bytes by 2-4 and so on.
+
+> 52 bytes.
+
+![image](https://user-images.githubusercontent.com/70703371/215698166-705fa72d-84ab-4e86-b6a8-d7fc0c981a47.png)
+
+
+> 76 bytes.
+
+![image](https://user-images.githubusercontent.com/70703371/215697094-45911f53-0970-492c-987e-5d77864a7b16.png)
+
+
+10. But when i input certain bytes like **53** and **75** got no char leaked.
+
+> 53
+
+![image](https://user-images.githubusercontent.com/70703371/215702213-e11797be-c08a-4cb1-9886-41c2575fdc16.png)
+
+
+> 75
+
+![image](https://user-images.githubusercontent.com/70703371/215702315-914ed292-6646-4f46-b24f-f68f0307e300.png)
+
+
+11. When i tried to read the `flag()` function, notice if a char is `_` hence shall printed null bytes, which means the null bytes is an underscore.
+12. We got the flag!
+
+
+## FLAG
+
+```
+TCP1P{buffer-overflow_to-leak-some-variable_6967462384}
+```
 
