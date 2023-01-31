@@ -32,4 +32,22 @@ nc ctf.tcp1p.com 3830
 ![image](https://user-images.githubusercontent.com/70703371/215320818-90df9081-bee9-4bfc-9db5-ff25f3bd9395.png)
 
 
-4. 
+4. Let's decompile the binary then.
+5. Analyzing the `vuln()` function, we know that there's a vulnerability about leaking variable value by utilizing the `%s`.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/215693733-ac00bffc-08b4-4dfa-8f4b-46ae1e8abeff.png)
+
+
+![image](https://user-images.githubusercontent.com/70703371/215693958-97eeaa23-15b1-43ad-940f-f68f8798f303.png)
+
+
+6. We can leak the `local_98` value. Notice since there's no specific payload we need to send, we just need add padding bytes and leak it one by one.
+7. Let's start by sending 32 bytes.
+
+> RESULT
+
+
+
+
