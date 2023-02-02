@@ -33,9 +33,31 @@ nc ctf.tcp1p.com 50283
 4. Based on it, there's a bufferoverflow at the **do-while** loop, where the loop stops if the value of `local_c` is equal to 121.
 5. Notice the `local_c` size will used as the buffer for `auStack120` variable, and that var only accept 104 bytes. This is the vuln.
 6. But what seems odd here, there's no `flag()` function called. Since there's PIE protections hence we can't do ret2win.
-7. Let's decompile the binary using IDA then.
+7. Let's try to disassemble the `vuln()` function using gdb.
 
 > RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/216251364-06dba21c-0de6-406b-af8a-1b429001bbfb.png)
+
+
+8. Hmm.. There's no `flag()` function, let's check the `main()`.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/216251462-d61b2908-43d5-47be-a09a-8c3beb7c62a5.png)
+
+
+9. Found it!
+
+![image](https://user-images.githubusercontent.com/70703371/216251567-33303243-6d63-4ad2-96c5-14cdcc7438bf.png)
+
+
+10. Actually it's written already in ghidra disassembler.
+
+![image](https://user-images.githubusercontent.com/70703371/216252008-5c22afe6-c9f8-4d70-853d-a1e2e5d69d24.png)
+
+
+11. 
 
 
 
