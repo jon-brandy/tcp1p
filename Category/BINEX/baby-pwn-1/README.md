@@ -32,7 +32,7 @@ nc ctf.tcp1p.com 50283
 
 4. Based on it, there's a vuln at the `do-while`, we can control the **local_c** values by make an infinity loop, where we will set the `local_c` values beyond 121.
 5. Hence we can do bufferoverflow and control the RIP.
-6. But what seems odd here, there's no `flag()` function called. Since there's PIE protections hence we can't do ret2win. We only can change the **least significant bytes**.
+6. But what seems odd here, there's no `flag()` function called. Since there's PIE protections hence we can't do simple ret2win. We only can change the **least significant bytes**. 
 7. Let's try to disassemble the `vuln()` function using gdb.
 
 > RESULT
@@ -57,7 +57,9 @@ nc ctf.tcp1p.com 50283
 ![image](https://user-images.githubusercontent.com/70703371/216252008-5c22afe6-c9f8-4d70-853d-a1e2e5d69d24.png)
 
 
-11. 
+11. Now the payloads we need to send is the padding bytes to reach the `local_c` variables, the last index of the `main()` return address, and the `flag()` call at main -> `main+23`.
+
+> MAIN + 23
 
 
 
