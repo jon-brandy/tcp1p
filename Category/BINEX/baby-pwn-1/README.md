@@ -112,4 +112,19 @@ sh.sendlineafter(b'',p)
 sh.interactive()
 ```
 
+17. Run it remotely.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/216326524-55f27950-c45e-4375-aa4a-321c431d29c3.png)
+
+
+18. Got the flag!
+
+## FLAG
+
+```
+TCP1P{r3t_2_w1n_ch4ll_1337}
+```
+
 
