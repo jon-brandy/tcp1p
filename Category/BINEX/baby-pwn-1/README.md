@@ -30,9 +30,9 @@ nc ctf.tcp1p.com 50283
 ![image](https://user-images.githubusercontent.com/70703371/216247886-ac5675d9-311a-4885-b3f5-0367bd7f2151.png)
 
 
-4. Based on it, there's a bufferoverflow at the **do-while** loop, where the loop stops if the value of `local_c` is equal to 121.
-5. Notice the `local_c` size will used as the buffer for `auStack120` variable, and that var only accept 104 bytes. This is the vuln.
-6. But what seems odd here, there's no `flag()` function called. Since there's PIE protections hence we can't do ret2win.
+4. Based on it, there's a vuln at the `do-while`, we can control the **local_c** values by make an infinity loop, where we will set the `local_c` values beyond 121.
+5. Hence we can overflow the buffer.
+6. But what seems odd here, there's no `flag()` function called. Since there's PIE protections hence we can't do ret2win. We only can change the **least significant bytes**.
 7. Let's try to disassemble the `vuln()` function using gdb.
 
 > RESULT
