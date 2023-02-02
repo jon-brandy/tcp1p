@@ -31,7 +31,7 @@ nc ctf.tcp1p.com 50283
 
 
 4. Based on it, there's a vuln at the `do-while`, we can control the **local_c** values by make an infinity loop, where we will set the `local_c` values beyond 121.
-5. Hence we can overflow the buffer.
+5. Hence we can do bufferoverflow and control the RIP.
 6. But what seems odd here, there's no `flag()` function called. Since there's PIE protections hence we can't do ret2win. We only can change the **least significant bytes**.
 7. Let's try to disassemble the `vuln()` function using gdb.
 
