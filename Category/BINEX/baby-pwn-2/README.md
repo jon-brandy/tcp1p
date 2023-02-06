@@ -26,4 +26,9 @@ nc 167.71.212.18 60256
 ![image](https://user-images.githubusercontent.com/70703371/216954016-11d26bdf-ebb0-4604-be45-437d931b7657.png)
 
 
-3. 
+3. Printed out an address (?)
+4. Let's check the source code given.
+
+> RESULT
+
+
