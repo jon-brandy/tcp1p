@@ -19,4 +19,11 @@ nc 167.71.212.18 60256
 ![image](https://user-images.githubusercontent.com/70703371/216953782-3842ee29-f790-4834-8ab4-241f813e8ec2.png)
 
 
-2. 
+2. Let's run the binary file.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/216954016-11d26bdf-ebb0-4604-be45-437d931b7657.png)
+
+
+3. 
