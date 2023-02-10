@@ -20,8 +20,9 @@ http://ctf.tcp1p.com:41815
 ![image](https://user-images.githubusercontent.com/70703371/217834208-a9093625-d497-42b6-84f8-19012362c238.png)
 
 
-3. Hm.. Let's analyze the source code then.
+3. Hm.. Got nothing here, but let's catch the request using burpsuite, to see if there are any clues or something that can be our interest.
 
-> RESULT
+> USING BURPSUITE AFTER REGISTERED
+
 
 
