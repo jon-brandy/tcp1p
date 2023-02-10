@@ -60,4 +60,18 @@ http://ctf.tcp1p.com:41815
 ![image](https://user-images.githubusercontent.com/70703371/218110022-9f3b1064-342e-4d56-8f37-a072d4b33161.png)
 
 
-10. 
+![image](https://user-images.githubusercontent.com/70703371/218110184-f496a698-f695-4086-a3a2-7399b503fbae.png)
+
+
+10. Great, looks like there's admin page, click that!
+
+![image](https://user-images.githubusercontent.com/70703371/218110357-967bb50d-943a-4207-9972-462ee3a94c66.png)
+
+
+11. Got the flag!
+
+## FLAG
+
+```
+TCP1P{storing_the_entire_object_is_not_good}
+```
