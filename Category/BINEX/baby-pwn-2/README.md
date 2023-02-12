@@ -74,6 +74,13 @@ int main()
 ```
 
 5. Notice there's an overflow when the program allows the user to input 1000 bytes, but the name variable holds 50 bytes as the buffer.
-6. The binary leaks the `fgets()`, `printf()`, and `puts()` address.
-7. 
+6. The binary leaks the `fgets()`, `printf()`, and `puts()` address from the libc library used.
+7. Let's find the correct padding bytes using gdb.
+
+> RESULT - 72
+
+![image](https://user-images.githubusercontent.com/70703371/218310773-671a72cd-97c6-452e-a1f5-a2b116ea5268.png)
+
+
+8. 
 
