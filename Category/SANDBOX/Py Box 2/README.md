@@ -10,7 +10,7 @@ ehh parah! kemarin programku di hek orang, yaudah ta kasih beberapa restriksi se
 
 > SCRIPT GIVEN
 
-```
+```py
 __builtins__ = {
     "compile": compile,
     "exec": exec,
