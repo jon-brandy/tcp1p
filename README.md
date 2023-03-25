@@ -58,17 +58,6 @@
 </details>
 
 
-<details>
-<br>
-<summary> FORENSIC </summary>
-
-|No.|Challenge's name|
-|:-:|:--------------:|
-|1. |[]()|
-|2. |[]()|
-|3. |[]()|
-
-
 </details>
 
 
