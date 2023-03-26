@@ -113,7 +113,7 @@
 |No.|Challenge's name|
 |:-:|:--------------:|
 |1. |[You See Often](https://github.com/jon-brandy/tcp1p/blob/6077ce5ad1f8c0f1d9b1621506ce4f7ced023539/Category/STEGO/You%20See%20Often/README.md)|
-
+|2. |[Spam Mas Bro](https://github.com/jon-brandy/tcp1p/blob/78f055b67ccc304e2e979640ed4e308da8c0cdf7/Category/STEGO/Spam%20Mas%20Bro/README.md)|
 
 </details>
 
