@@ -117,3 +117,16 @@
 
 </details>
 
+
+<details>
+<br>
+<summary> OSINT </summary>
+
+|No.|Challenge's name|
+|:-:|:--------------:|
+|1. |[Tempat Favorit](https://github.com/jon-brandy/tcp1p/blob/4c88a239aac4b8a9fd5883ae904013354a0d7667/Category/OSINT/Tempat%20Favorit/README.md)|
+
+</details>
+
+
+
