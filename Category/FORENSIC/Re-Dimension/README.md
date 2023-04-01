@@ -14,7 +14,7 @@ Something is missing in this image
 
 > RESULT
 
-```
+```console
 ┌──(vreshco㉿nic)-[~/Downloads]
 └─$ pngcheck -v dimas-profile-picture-A.png
 File: dimas-profile-picture-A.png (405070 bytes)
