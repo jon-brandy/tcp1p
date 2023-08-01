@@ -10,11 +10,11 @@
 
 |No.|Challenge's name|
 |:-:|:--------------:|
-|1. |[baby-printf-1](https://github.com/jon-brandy/tcp1p/blob/1facae9814722f71be7db42da609e4a02e15b139/Category/BINEX/baby-printf-1/README.md)|
-|2. |[baby-pwn-0.25](https://github.com/jon-brandy/tcp1p/blob/1facae9814722f71be7db42da609e4a02e15b139/Category/BINEX/baby-pwn-0.25/README.md)|
-|3. |[baby-pwn-0.5](https://github.com/jon-brandy/tcp1p/blob/1facae9814722f71be7db42da609e4a02e15b139/Category/BINEX/baby-pwn-0.5/README.md)|
-|4. |[baby-pwn-0.75](https://github.com/jon-brandy/tcp1p/blob/1facae9814722f71be7db42da609e4a02e15b139/Category/BINEX/baby-pwn-0.75/README.md)|
-|5. |[baby-pwn-1](https://github.com/jon-brandy/tcp1p/blob/1facae9814722f71be7db42da609e4a02e15b139/Category/BINEX/baby-pwn-1/README.md)|
+|1. |[baby-printf-1](https://github.com/jon-brandy/tcp1p/blob/main/Category/BINEX/baby-printf-1/README.md)|
+|2. |[baby-pwn-0.25](https://github.com/jon-brandy/tcp1p/blob/main/Category/BINEX/baby-pwn-0.25/README.md)|
+|3. |[baby-pwn-0.5](https://github.com/jon-brandy/tcp1p/blob/main/Category/BINEX/baby-pwn-0.5/README.md)|
+|4. |[baby-pwn-0.75](https://github.com/jon-brandy/tcp1p/blob/main/Category/BINEX/baby-pwn-0.75/README.md)|
+|5. |[baby-pwn-1](https://github.com/jon-brandy/tcp1p/blob/main/Category/BINEX/baby-pwn-1/README.md)|
 
 
 </details>
